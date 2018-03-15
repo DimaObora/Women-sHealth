@@ -1,0 +1,114 @@
+
+/* SCROLLBAR for Chrome'n'Safari'n'Opera */
+.contaner::-webkit-scrollbar{
+width: 5px;
+opacity: 0.5;
+}
+.contaner::-webkit-scrollbar-thumb{
+background-color: #aaa;
+}
+/* SCROLLBAR for IE */
+.contaner{
+scrollbar-face-color: #aaa;
+scrollbar-3dlight-color: #aaa;
+scrollbar-track-color: #585a5b;
+scrollbar-arrow-color: #585a5b;
+}
+/* SCROLLBAR for Mozilla none :( */
+/* RIGHT SIDEBAR */
+#rightsidebar{
+right: -141px; 
+-webkit-transition-duration: 0.3s;
+-moz-transition-duration: 0.3s;
+-o-transition-duration: 0.3s;
+transition-duration: 0.3s;
+opacity: 0.5; /* прозрачность */
+font-size: 13;
+overflow-y: auto;
+z-index:999999;
+display: block;
+}
+.contaner{
+width: 197px; 
+height: 100%;
+background: -moz-linear-gradient(left, #353636, #585a5b); /* Градиент */
+background: -webkit-linear-gradient(left, #353636, #585a5b);
+background: -o-linear-gradient(left, #353636, #585a5b);
+background: -ms-linear-gradient(left, #353636, #585a5b);
+position: fixed;
+top: 0;
+
+}
+.contaner p{
+margin: 22px 0 12px 56px; /* сверху справа снизу слева*/
+font-weight: bold;
+font-size: 13;
+color: white;
+}
+.arrow{
+width: 29px;
+height: 23px;
+background: url('../img/arrow_r-l.png');
+margin: 13px 14px 0 13px;
+cursor: pointer;
+}
+.content{
+width: 100%;
+height: 57px;
+}
+.content a:link, .content a:hover, .content a:visited{
+color: white;
+TEXT-DECORATION: none;
+}
+.content a img{
+margin: 0;
+padding: 13px 14px 0 13px;
+float: left;
+border: none;
+}
+.content a div{
+padding-top: 19px;
+}
+.content:hover{
+width: 100%;
+height: 57px;
+}
+@media (min-width: 600px) and (max-width: 1024px){
+#rightsidebar{
+	bottom:-141px;
+	right: 0;
+	left: 0;
+	overflow-y: none;
+	overflow-x: auto;
+	display: flex;
+	-webkit-transition-duration: 0.0s;
+	-moz-transition-duration: 0.0s;
+	-o-transition-duration: 0.0s;
+	transition-duration: 0.0s;
+	}
+.contaner{
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 94%;
+	width: 100%;
+	height: 197px;
+	}
+.arrow, .contaner p, .content a div{
+	display: none;
+	}
+.content a:link, .content a:hover, .content a:visited{
+	width: 20px;
+	text-align: center;
+	}
+}
+@media (max-height: 768px) and (max-width: 1024px){
+	.contaner{
+	top: 92%;
+	}
+}
+@media (max-width: 600px){
+	#rightsidebar{
+	display: none;
+	}
+}

@@ -1,0 +1,235 @@
+/* only small desktops */
+/* tablets */
+/* only small tablets */
+@media (max-width: 1765px){
+  .city-and-pfone {
+    width: 52%;
+  }
+}
+@media (max-width: 1702px){
+  .city-and-pfone {
+    width: 60%;
+  }
+}@media (max-width: 1687px){
+  .city-and-pfone {
+    width: 70%;
+  }
+}
+
+  @media (max-width: 1366px) {
+
+
+}
+
+  @media (max-width: 1280px){
+
+
+    .city-and-pfone {
+      width: 80%;
+    }
+    #order-form {
+      width: 80%;
+    }
+}
+
+  @media (max-width: 1024px) {
+    .contaner {
+      top: 94%;
+    }
+    .city-and-pfone {
+      width: 100%;
+    }
+    #order-form {
+      width: 90%;
+    }
+
+    .back-to-top {
+      bottom: 5em;
+      right: 5em;
+    }
+
+
+  }
+@media screen and (max-width: 991px) {
+  .navbar-header {
+    width: 100%;
+  }
+
+  .navbar-brand {
+    position: absolute;
+    padding: 15px;
+    top: 0;
+    width: 78%;
+  }
+
+  .navbar-brand img {
+    width: 34%;
+  }
+
+  #mobile-menu {
+    display: none;
+  }
+
+  .slicknav_menu {
+    display: block;
+  }
+
+  .slicknav_nav .active a {
+    background: #61D2B4;
+    color: #fff;
+  }
+
+  .slicknav_nav a:hover, .slicknav_nav .active {
+    color: #61D2B4;
+    background: #f8f9fa;
+  }
+
+  .slicknav_nav .dropdown li a.active {
+    background: #f8f9fa;
+    color: #61D2B4;
+  }
+}
+  @media (min-width: 768px) and (max-width: 991px) {
+  #hero-area .contents h1 {
+    font-size: 28px;
+  }
+  .item-boxes h4 {
+    font-size: 18px;
+  }
+  #features .show-box img {
+    display: none;
+  }
+  .pricing-table .pricing-details ul li {
+    font-size: 12px;
+  }
+  .counters .facts-item .fact-count h4 {
+    font-size: 14px;
+  }
+  .single-team {
+    margin-bottom: 30px;
+  }
+  .meta-tags span {
+    margin-right: 3px;
+  }
+  .meta-tags span i {
+    margin-right: 0px;
+  }
+  #blog .blog-item-text h3 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  #panel {
+    margin-top: 85px;
+  }
+}
+
+/* mobile or only mobile */
+@media (max-width: 768px) {
+  .contaner {
+    top: 95%;
+  }
+
+
+  .navbar-brand img {
+    width: 47%;
+  }
+  .section-header .section-title {
+    font-size: 20px;
+  }
+  #hero-area .contents {
+    padding: 100px 0 80px;
+  }
+  #hero-area .contents h1 {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  #features .show-box img {
+    display: none;
+  }
+  #features .box-item .text h4 {
+    font-size: 14px;
+  }
+  .controls {
+    margin: 0px;
+  }
+  .controls .btn {
+    font-size: 13px;
+    padding: 7px 7px;
+  }
+  .video-promo .video-promo-content h2 {
+    font-size: 22px;
+  }
+  .pricing-table {
+    margin-bottom: 15px;
+  }
+  .counters .facts-item {
+    margin-bottom: 30px;
+  }
+  .single-team {
+    margin-bottom: 15px;
+  }
+  .order-form-us {
+    margin-bottom: 30px;
+  }
+  .order-form-us h3 {
+    font-size: 28px;
+  }
+  .footer-links li a {
+    margin-right: 10px;
+  }
+  .copyright {
+    float: left;
+  }
+  #sliding_panel{
+    overflow-y: scroll;
+    height: 700px!important;
+  }
+  .clearfix{
+    max-width: 613px!important;
+  }
+  #panel {
+    margin-top: 85px;
+  }
+  .tab ul.login {
+    right: 46px;
+  }
+  .coll-back{
+    bottom: 4em;
+    left: 1em;
+    z-index: 999999;
+  }
+}
+@media (max-width: 575px){
+  #sliding_panel{
+    overflow-y: scroll;
+    height: 300px!important;
+  }
+
+}
+@media (max-width: 450px){
+  .back-to-top {
+    bottom: 1em;
+    right: 2em;
+
+  }
+  .coll-back{
+    bottom: 1em;
+    left: 1em;
+    z-index: 999999;
+  }
+  #call {
+    width: 45%;
+
+  }
+  #order-formForm {
+    width: 100%;
+    left: 0;
+  }
+
+  .order-form-us {
+    float:none;
+  }
+  .section {
+    padding: 117px 0 80px;
+  }
+}

@@ -1,0 +1,232 @@
+/*
+Name: Sliding Login Panel with jQuery 1.3.2
+Author: Jeremie Tisseau
+Author URI: http://web-kreation.com/
+Script URI: http://web-kreation.com/index.php/tutorials/nice-clean-sliding-login-panel-built-with-jquery/
+Date: March 26, 2009
+Version: 1.0
+
+	The CSS, XHTML and design is released under Creative Common License 3.0:
+	http://creativecommons.org/licenses/by-sa/3.0/
+
+*/
+
+/***** clearfix *****/
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+/* Hides from IE-mac \*/
+* html .clearfix {
+    height: 1%;
+}
+
+.clearfix {
+    display: block;
+}
+
+/* End hide from IE-mac */
+.clearfix {
+    height: 1%;
+}
+
+.clearfix {
+    display: block;
+}
+
+.icon {
+    display: block;
+    padding-right: 10px;
+}
+
+/* Panel Tab/button */
+
+.tab {
+
+    position: relative;
+    top: 0px;
+
+    max-width: 100%;
+
+    margin: 0 auto;
+}
+
+#l_nav_title {
+    margin-bottom: 10px;
+}
+
+.tab ul.login {
+    display: block;
+    position: relative;
+    float: right;
+    clear: right;
+    height: 42px;
+    width: auto;
+    font-weight: bold;
+    line-height: 42px;
+    margin: 0;
+    right: 140px;
+    top: 0px;
+    color: white;
+    font-size: 80%;
+    text-align: center;
+
+}
+
+.tab ul.login li.left {
+    background: url(https://0370.ru/panels/sliding_panel/images/tab_l.png) no-repeat left 0;
+    height: 42px;
+    width: 40px;
+    padding: 0;
+    margin: 0;
+    display: block;
+    float: left;
+
+}
+
+.tab ul.login li.right {
+    background: url(https://0370.ru/panels/sliding_panel/images/tab_r.png) no-repeat left 0;
+    height: 42px;
+    width: 40px;
+    padding: 0;
+    margin: 0;
+    display: block;
+    float: left;
+
+}
+
+.tab ul.login li {
+    text-align: left;
+    padding: 0 5px;
+    margin-left: 0px;
+    display: block;
+    float: left;
+    height: 42px;
+
+}
+
+.tab ul.login li a {
+    color: #fff;
+}
+
+.tab ul.login li a:hover {
+    color: white;
+}
+
+.tab .sep {
+    color: #414141;
+    margin-left: 1px;
+
+}
+
+.tab a.open_panel, .tab a.close_panel {
+    height: 20px;
+    line-height: 20px !important;
+    padding-left: 30px !important;
+    cursor: pointer;
+    display: block;
+    width: auto;
+    position: relative;
+    top: 8px;
+}
+
+/* sliding panel */
+#panel {
+    margin-top: 93px;
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+    border: 0px solid red;
+    z-index: 9999;
+}
+
+#sliding_panel {
+
+    max-width: 100%;
+    height: 100%;
+    color: #666666;
+    background: #f9f9f9;
+    z-index: -1;
+    position: relative;
+    display: none;
+    margin: 0 auto;
+    border-bottom: 1px solid #ccc;
+    padding-top: 50px;
+    box-shadow: 0px 0px 0px #000;
+    z-index: 4;
+
+}
+
+#sliding_panel:hover {
+    background: #fff;
+}
+
+#sliding_panel img {
+
+    float: left;
+    margin-right: 3px;
+}
+
+#sliding_panel h1 {
+    font-size: 1.6em;
+    padding: 0px 0 10px;
+    margin: 0;
+    color: white;
+}
+
+#sliding_panel h2 {
+    font-size: 17px;
+    padding: 10px 0 0 0;
+    margin: 0;
+    font-family: Myriad;
+}
+
+#sliding_panel p {
+    margin: 5px 0;
+    padding: 0;
+}
+
+#sliding_panel a {
+    text-decoration: none;
+
+}
+
+#sliding_panel a:hover {
+
+    text-decoration: underline;
+}
+
+#sliding_panel a-lost-pwd {
+    display: block;
+    float: left;
+}
+
+#sliding_panel .content {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 15px;
+    text-align: left;
+    font-size: 0.85em;
+}
+
+#sliding_panel .container .left {
+    float: left;
+    padding: 0 15px;
+    border-left: 1px solid #ccc;
+margin-bottom: 3em;
+}
+
+#sliding_panel .content .right {
+    border-right: 1px solid #333;
+}
+
+

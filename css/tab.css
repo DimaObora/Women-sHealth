@@ -1,0 +1,72 @@
+
+.tabs_controls-item {
+    display: inline-block;
+    padding: 10px;
+}
+
+ .tabs_controls li.active {
+     background: #fff;
+     border-color: #ddd #ddd #fff;
+     border: 1px solid transparent;
+     border-top-left-radius: .25rem;
+     border-top-right-radius: .25rem;
+}
+
+.tabs_item {
+    display: none;
+}
+
+.tabs_list li.active, .tabs_list div.tabs_item.active  {
+    display: block;
+}
+.tabs_controls{
+    position: relative;
+    z-index: 999;
+}
+
+
+.tabs_controls-item  a{
+    color: white;
+    font-size: 20px;
+    border: none;
+    font-weight: 600;
+    text-shadow:
+            -0   -1px 0   #000000,
+            0   -1px 0   #000000,
+            -0    1px 0   #000000,
+            0    1px 0   #000000,
+            -1px -0   0   #000000,
+            1px -0   0   #000000,
+            -1px  0   0   #000000,
+            1px  0   0   #000000,
+            -1px -1px 0   #000000,
+            1px -1px 0   #000000,
+            -1px  1px 0   #000000,
+            1px  1px 0   #000000,
+            -1px -1px 0   #000000,
+            1px -1px 0   #000000,
+            -1px  1px 0   #000000,
+            1px  1px 0   #000000;
+}
+.tabs_controls-item:focus, .tabs_controls-item:active{
+    color: black;
+    border: none;
+    font-weight: 600;
+}
+
+.city {
+    position: relative;
+    float: right;
+    margin-top: 2em;
+}
+.city li {
+    font-size: 20px;
+}
+.city-and-pfone{
+    width: 50%;
+    float: right;
+    right: 5%;
+    position: relative;
+}
+
+
